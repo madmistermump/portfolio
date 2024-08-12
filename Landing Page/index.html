@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo"></div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+		<img src= rafe.png>
+                <h1>Rafe Smith</h1>
+                <p>Owner of Aware Smith LLC. Epicor consultant, Epicor boosting software development, and contract software development.</p>
+                <button onclick="scrollToSection('about')">Learn More</button>
+            </div>
+        </section>
+        <section id="about" class="about">
+            <h2>About Me</h2>
+            <p>I have several SaaS products in development and will be to market soon. These solutions are aimed at helping businesses get the "Epicor Source of Truth" information into the hands and tools of data consumers. Reach out if you are interested in participating in our active development project: Custom Report Building (No more SSRS!) and Labeling Integration with Zebra Label Printers.<p>
+        </section>
+        <section id="services" class="services">
+            <h2>My Services</h2>
+            <div class="service-item">
+                <h3>Contract Software Development</h3>
+                <p>My software development services include custom software development, web and mobile app creation, and software integration to ensure seamless functionality across systems. I offer cloud solutions, API development, and ongoing maintenance and support to keep your software up-to-date and effective. Additionally, we provide consulting and strategy for technology planning, rigorous quality assurance and testing, and expert UX/UI design to deliver intuitive and engaging user experiences.</p>
+            </div>
+            <div class="service-item">
+                <h3>Epicor Consulting</h3>
+                <p>As an Epicor consultant I help businesses implemention, customization, and optimize Epicor ERP systems to fit their specific needs. I assess business processes, configure the software, and develop custom solutions while providing training and ongoing support. I also handle system upgrades, integration with other software, and project management to ensure the ERP system enhances operational efficiency and meets the company’s goals.</p>
+            </div>
+            <div class="service-item">
+                <h3>Epicor Boosting Software</h3>
+               <p>My Epicor boosting software is designed to enhance the performance and capabilities of existing Epicor ERP systems. It provides additional features or improvements that optimize functionality, streamline workflows, and improve efficiency. This software can integrate with Epicor to offer advanced analytics, better user interfaces, or automation tools, helping businesses get more value from their ERP investment and adapt the system more effectively to their unique needs.</p>
+            </div>
+        </section>
+        <section id="contact" class="contact">
+            <h2>Contact Me</h2>
+            <form action="submit_form.php" method="post">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Rafe Smith. All rights reserved.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
+
+   
+        
+
